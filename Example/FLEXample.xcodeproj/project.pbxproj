@@ -3,10 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29A4053925553663002F9F4D /* FLEX in Frameworks */ = {isa = PBXBuildFile; productRef = 29A4053825553663002F9F4D /* FLEX */; };
+		29B98DB72555361100DA3EB6 /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A67857241ADDF7005A4681 /* Commit.swift */; };
+		29B98DB82555361100DA3EB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C386D6CF2419975A00699085 /* AppDelegate.swift */; };
+		29B98DB92555361100DA3EB6 /* CommitListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C386D6E52419984700699085 /* CommitListViewController.m */; };
+		29B98DBA2555361100DA3EB6 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = C386D709241AA67800699085 /* Dog.m */; };
+		29B98DBB2555361100DA3EB6 /* MiscNetworkRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A67855241AB8AD005A4681 /* MiscNetworkRequests.m */; };
+		29B98DBC2555361100DA3EB6 /* Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = C386D70A241AA67800699085 /* Owner.m */; };
+		29B98DBD2555361100DA3EB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C386D6D12419975A00699085 /* SceneDelegate.swift */; };
+		29B98DC12555361100DA3EB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C386D6DA2419975B00699085 /* LaunchScreen.storyboard */; };
+		29B98DC22555361100DA3EB6 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = C386D6FA241AA4B700699085 /* image.png */; };
+		29B98DC32555361100DA3EB6 /* music_library.db in Resources */ = {isa = PBXBuildFile; fileRef = C386D702241AA61600699085 /* music_library.db */; };
+		29B98DC42555361100DA3EB6 /* image in Resources */ = {isa = PBXBuildFile; fileRef = C386D6F9241AA4B700699085 /* image */; };
+		29B98DC52555361100DA3EB6 /* image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C386D6F8241AA4B700699085 /* image.jpeg */; };
+		29B98DC62555361100DA3EB6 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C386D6FC241AA4B700699085 /* image.jpg */; };
+		29B98DC72555361100DA3EB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C386D6D82419975B00699085 /* Preview Assets.xcassets */; };
+		29B98DC82555361100DA3EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C386D6D52419975B00699085 /* Assets.xcassets */; };
+		29B98DC92555361100DA3EB6 /* music_library_schema.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C386D703241AA61600699085 /* music_library_schema.jpg */; };
+		7CB8C28DD5EC2AF347FE6AE4 /* libPods-FLEXample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5FFDDD9C2278C79FFA0295B /* libPods-FLEXample.a */; };
 		C386D6D02419975A00699085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C386D6CF2419975A00699085 /* AppDelegate.swift */; };
 		C386D6D22419975A00699085 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C386D6D12419975A00699085 /* SceneDelegate.swift */; };
 		C386D6D62419975B00699085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C386D6D52419975B00699085 /* Assets.xcassets */; };
@@ -23,13 +41,13 @@
 		C386D70C241AA67800699085 /* Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = C386D70A241AA67800699085 /* Owner.m */; };
 		C3A67856241AB8AD005A4681 /* MiscNetworkRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A67855241AB8AD005A4681 /* MiscNetworkRequests.m */; };
 		C3A67858241ADDF7005A4681 /* Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A67857241ADDF7005A4681 /* Commit.swift */; };
-		E211705F801A8167D308F94A /* libPods-FLEXample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD699DDBAC5A16D8CFD39AC /* libPods-FLEXample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		33A4EDAC37AA215CF95EEA24 /* Pods-FLEXample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLEXample.release.xcconfig"; path = "Target Support Files/Pods-FLEXample/Pods-FLEXample.release.xcconfig"; sourceTree = "<group>"; };
-		57041F764D8B1C098B9B4073 /* Pods-FLEXample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLEXample.debug.xcconfig"; path = "Target Support Files/Pods-FLEXample/Pods-FLEXample.debug.xcconfig"; sourceTree = "<group>"; };
-		BBD699DDBAC5A16D8CFD39AC /* libPods-FLEXample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLEXample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F97E8666E04B043AC919BA /* Pods-FLEXample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLEXample.release.xcconfig"; path = "Target Support Files/Pods-FLEXample/Pods-FLEXample.release.xcconfig"; sourceTree = "<group>"; };
+		29B98DCD2555361100DA3EB6 /* FLEXample-SPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FLEXample-SPM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD21AEF548AD7B89327EEFB /* Pods-FLEXample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLEXample.debug.xcconfig"; path = "Target Support Files/Pods-FLEXample/Pods-FLEXample.debug.xcconfig"; sourceTree = "<group>"; };
+		A5FFDDD9C2278C79FFA0295B /* libPods-FLEXample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLEXample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C386D6CC2419975A00699085 /* FLEXample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLEXample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C386D6CF2419975A00699085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C386D6D12419975A00699085 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,17 +75,33 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		29B98DBE2555361100DA3EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A4053925553663002F9F4D /* FLEX in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C386D6C92419975A00699085 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E211705F801A8167D308F94A /* libPods-FLEXample.a in Frameworks */,
+				7CB8C28DD5EC2AF347FE6AE4 /* libPods-FLEXample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C3080FE45370D3EC44ADD5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5FFDDD9C2278C79FFA0295B /* libPods-FLEXample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C386D6C32419975A00699085 = {
 			isa = PBXGroup;
 			children = (
@@ -75,7 +109,7 @@
 				C3A67853241AB88F005A4681 /* Realm */,
 				C386D6CD2419975A00699085 /* Products */,
 				E367791A4E4085CCB945F0F8 /* Pods */,
-				DCEB5037DA3D5C01CB9CEE93 /* Frameworks */,
+				8C3080FE45370D3EC44ADD5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				C386D6CC2419975A00699085 /* FLEXample.app */,
+				29B98DCD2555361100DA3EB6 /* FLEXample-SPM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,19 +191,11 @@
 			path = Realm;
 			sourceTree = "<group>";
 		};
-		DCEB5037DA3D5C01CB9CEE93 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BBD699DDBAC5A16D8CFD39AC /* libPods-FLEXample.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		E367791A4E4085CCB945F0F8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				57041F764D8B1C098B9B4073 /* Pods-FLEXample.debug.xcconfig */,
-				33A4EDAC37AA215CF95EEA24 /* Pods-FLEXample.release.xcconfig */,
+				9FD21AEF548AD7B89327EEFB /* Pods-FLEXample.debug.xcconfig */,
+				05F97E8666E04B043AC919BA /* Pods-FLEXample.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -176,11 +203,31 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		29B98DB42555361100DA3EB6 /* FLEXample-SPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29B98DCA2555361100DA3EB6 /* Build configuration list for PBXNativeTarget "FLEXample-SPM" */;
+			buildPhases = (
+				29B98DB62555361100DA3EB6 /* Sources */,
+				29B98DBE2555361100DA3EB6 /* Frameworks */,
+				29B98DC02555361100DA3EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FLEXample-SPM";
+			packageProductDependencies = (
+				29A4053825553663002F9F4D /* FLEX */,
+			);
+			productName = FLEXample;
+			productReference = 29B98DCD2555361100DA3EB6 /* FLEXample-SPM.app */;
+			productType = "com.apple.product-type.application";
+		};
 		C386D6CB2419975A00699085 /* FLEXample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C386D6E02419975B00699085 /* Build configuration list for PBXNativeTarget "FLEXample" */;
 			buildPhases = (
-				E25E87A42AA269B0CF1830D1 /* [CP] Check Pods Manifest.lock */,
+				83A4AFDE614DA1561E5608BA /* [CP] Check Pods Manifest.lock */,
 				C386D6C82419975A00699085 /* Sources */,
 				C386D6C92419975A00699085 /* Frameworks */,
 				C386D6CA2419975A00699085 /* Resources */,
@@ -224,11 +271,28 @@
 			projectRoot = "";
 			targets = (
 				C386D6CB2419975A00699085 /* FLEXample */,
+				29B98DB42555361100DA3EB6 /* FLEXample-SPM */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		29B98DC02555361100DA3EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B98DC12555361100DA3EB6 /* LaunchScreen.storyboard in Resources */,
+				29B98DC22555361100DA3EB6 /* image.png in Resources */,
+				29B98DC32555361100DA3EB6 /* music_library.db in Resources */,
+				29B98DC42555361100DA3EB6 /* image in Resources */,
+				29B98DC52555361100DA3EB6 /* image.jpeg in Resources */,
+				29B98DC62555361100DA3EB6 /* image.jpg in Resources */,
+				29B98DC72555361100DA3EB6 /* Preview Assets.xcassets in Resources */,
+				29B98DC82555361100DA3EB6 /* Assets.xcassets in Resources */,
+				29B98DC92555361100DA3EB6 /* music_library_schema.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C386D6CA2419975A00699085 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,7 +312,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E25E87A42AA269B0CF1830D1 /* [CP] Check Pods Manifest.lock */ = {
+		83A4AFDE614DA1561E5608BA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -273,6 +337,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		29B98DB62555361100DA3EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B98DB72555361100DA3EB6 /* Commit.swift in Sources */,
+				29B98DB82555361100DA3EB6 /* AppDelegate.swift in Sources */,
+				29B98DB92555361100DA3EB6 /* CommitListViewController.m in Sources */,
+				29B98DBA2555361100DA3EB6 /* Dog.m in Sources */,
+				29B98DBB2555361100DA3EB6 /* MiscNetworkRequests.m in Sources */,
+				29B98DBC2555361100DA3EB6 /* Owner.m in Sources */,
+				29B98DBD2555361100DA3EB6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C386D6C82419975A00699085 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,6 +379,55 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		29B98DCB2555361100DA3EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FLEXample/Supporting Files/Preview Content\"";
+				DEVELOPMENT_TEAM = S6N2F22V2Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "FLEXample/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flipboard.flex.FLEXample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FLEXample/Supporting Files/FLEXample-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "FLEXample-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29B98DCC2555361100DA3EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FLEXample/Supporting Files/Preview Content\"";
+				DEVELOPMENT_TEAM = S6N2F22V2Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "FLEXample/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flipboard.flex.FLEXample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FLEXample/Supporting Files/FLEXample-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "FLEXample-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		C386D6DE2419975B00699085 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -419,7 +546,7 @@
 		};
 		C386D6E12419975B00699085 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57041F764D8B1C098B9B4073 /* Pods-FLEXample.debug.xcconfig */;
+			baseConfigurationReference = 9FD21AEF548AD7B89327EEFB /* Pods-FLEXample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -444,7 +571,7 @@
 		};
 		C386D6E22419975B00699085 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33A4EDAC37AA215CF95EEA24 /* Pods-FLEXample.release.xcconfig */;
+			baseConfigurationReference = 05F97E8666E04B043AC919BA /* Pods-FLEXample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -469,6 +596,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		29B98DCA2555361100DA3EB6 /* Build configuration list for PBXNativeTarget "FLEXample-SPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B98DCB2555361100DA3EB6 /* Debug */,
+				29B98DCC2555361100DA3EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C386D6C72419975A00699085 /* Build configuration list for PBXProject "FLEXample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -488,6 +624,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29A4053825553663002F9F4D /* FLEX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FLEX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C386D6C42419975A00699085 /* Project object */;
 }
