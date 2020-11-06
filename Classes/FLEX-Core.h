@@ -6,6 +6,28 @@
 //  Copyright © 2020 FLEX Team. All rights reserved.
 //
 
+
+
+#if SWIFT_PACKAGE
+
+#import "FLEXFilteringTableViewController.h"
+#import "FLEXNavigationController.h"
+#import "FLEXTableViewController.h"
+#import "FLEXTableView.h"
+
+#import "FLEXSingleRowSection.h"
+#import "FLEXTableViewSection.h"
+
+#import "FLEXCodeFontCell.h"
+#import "FLEXSubtitleTableViewCell.h"
+#import "FLEXTableViewCell.h"
+#import "FLEXMultilineTableViewCell.h"
+#import "FLEXKeyValueTableViewCell.h"
+
+#import "FLEXScopeCarousel.h"
+
+#else
+
 #import <FLEX/FLEXFilteringTableViewController.h>
 #import <FLEX/FLEXNavigationController.h>
 #import <FLEX/FLEXTableViewController.h>
@@ -21,3 +43,5 @@
 #import <FLEX/FLEXKeyValueTableViewCell.h>
 
 #import <FLEX/FLEXScopeCarousel.h>
+
+#endif

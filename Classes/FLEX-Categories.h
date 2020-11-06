@@ -7,6 +7,27 @@
 //
 
 
+#if SWIFT_PACKAGE
+
+#import "UIBarButtonItem+FLEX.h"
+#import "CALayer+FLEX.h"
+#import "UIFont+FLEX.h"
+#import "UIGestureRecognizer+Blocks.h"
+#import "UIView+FLEX_Layout.h"
+#import "UIPasteboard+FLEX.h"
+#import "UIMenu+FLEX.h"
+#import "UITextField+Range.h"
+
+#import "NSObject+FLEX_Reflection.h"
+#import "NSArray+FLEX.h"
+#import "NSDictionary+ObjcRuntime.h"
+#import "NSString+ObjcRuntime.h"
+#import "NSString+FLEX.h"
+#import "NSUserDefaults+FLEX.h"
+#import "NSMapTable+FLEX_Subscripting.h"
+#import "NSTimer+FLEX.h"
+
+#else
 
 #import <FLEX/UIBarButtonItem+FLEX.h>
 #import <FLEX/CALayer+FLEX.h>
@@ -25,3 +46,5 @@
 #import <FLEX/NSUserDefaults+FLEX.h>
 #import <FLEX/NSMapTable+FLEX_Subscripting.h>
 #import <FLEX/NSTimer+FLEX.h>
+
+#endif
